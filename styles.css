@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;    
+    box-sizing: border-box;
+    
+}
+.top-img{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0px;
+    padding-left: 40px;
+    
+    
+}
+.menu{
+    position: absolute;
+    top: 1px;
+    display: flex;
+    flex-direction: row;
+    right: 30px;
+    padding-right: 40px;
+    
+}
+.menu p{
+    padding-right:20px ;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    
+
+}
+.menu p:hover{
+color: #BB85FC;
+}
+.v{
+    padding-top: 20px;
+    padding-left: 45px;
+    font-weight: bolder;
+    margin-block: 10px;
+    font-size: 42px;
+}
+header{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    width: 50% ;
+    align-items: center;
+
+    
+}
+.next{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.nextt{
+    margin-top: 190px;
+    display: flex;
+    font-size: 40px;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.nextt h2{
+    margin-right: 60px;
+    margin-block: 20px;
+}
+.nextt p{
+    color: rgba(0, 0, 0, 0.582);
+    font-size: 29px;
+    margin-bottom: 20px;
+}
+.nextt button{
+    background-color:#BB85FC;
+    border-radius: 20pX;
+    border: #BB85FC;
+    width: 180px;
+    height: 50px;
+    margin-right: 340px;
+    margin-block: 30px 70px;
+}
+.nextt ::placeholder{
+    font-size: 20px;
+}
+.imf-cont{
+    width:400px;
+    height: 300px;
+    border: 1px solid black;
+    margin-block: 40px;
+}
+.approach{
+    margin-block: 30px;
+    margin-bottom: 70px;
+}
+.approach h2{
+    font-size: 60px;
+    padding-block: 20px;
+    font-weight: bolder;
+}
+.approach h3{
+    font-size: 28px;
+    padding-bottom: 5px;
+}
+.approach p{
+    color: rgba(0, 0, 0, 0.712);
+    font-size: 24px;
+    padding-block: 2px 29px;
+}
+
+.meetings h2{
+    padding-top: 390px;
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+.meetings .p{
+    font-size: 25px;
+    padding-block: 20px;
+    color: rgba(0, 0, 0, 0.726);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.white{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block: 30px;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+}
+.line{
+    width: 120px;
+    height: 100px;
+    color: #BB85FC;
+}
+.black{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-block: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    padding: 50px 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.lab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+   width: 30%;
+    text-wrap: wrap;
+    padding-block: 30px;
+
+}
+.lab h3{
+    font-size: 32px;
+    padding-right: 130px;
+    padding-bottom: 10px;
+}
+.lab p{
+    font-size: 16px;
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.849);
+}
+.work{
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 10px;
+}
+.work li{
+    padding-block: 5px;
+}
+.company{
+    padding-bottom: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 10px;
+
+}
+.company li{
+    padding-block: 7px;
+}
+.icon{
+    padding-right: 90px;
+    margin-block: 40px;
+}
+i{
+    font-size: 25px;
+    padding-right: 30px;
+}
+li{
+    color: #BB85FC;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    list-style-type: none;
+}
