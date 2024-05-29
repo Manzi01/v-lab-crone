@@ -10,8 +10,22 @@
     justify-content: flex-end;
     position: absolute;
     top: 0px;
-    padding-left: 40px;
     
+    padding-left: 40px;
+    top:38%;
+    right: -300px; 
+    transform: translateY(-50%);
+    animation: slide-in 1s ease-in-out forwards;
+  }
+  
+  @keyframes slide-in {
+    0% {
+      right:-300px; 
+    }
+    100% {
+      right: 99px; 
+    }
+   
     
 }
 .menu{
@@ -21,6 +35,7 @@
     flex-direction: row;
     right: 30px;
     padding-right: 40px;
+    
     
 }
 .menu p{
@@ -41,6 +56,8 @@ color: #BB85FC;
     font-weight: bolder;
     margin-block: 10px;
     font-size: 42px;
+
+    
 }
 header{
     margin-left: 100px;
@@ -57,6 +74,7 @@ header{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 }
 .nextt{
     margin-top: 190px;
@@ -64,6 +82,8 @@ header{
     font-size: 40px;
     align-items: center;
     flex-direction: column;
+
+    
     
 }
 .nextt h2{
@@ -83,16 +103,24 @@ header{
     height: 50px;
     margin-right: 340px;
     margin-block: 30px 70px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.nextt button:hover{
+    cursor: pointer;
+    background-color: #5f4281;
+    border: #5f4281;
 }
 .nextt ::placeholder{
     font-size: 20px;
 }
-.imf-cont{
-    width:400px;
-    height: 300px;
-    border: 1px solid black;
-    margin-block: 40px;
+.imf-cont2{
+    margin-top: 150px;
+    margin-left: 100px;
 }
+  
+
 .approach{
     margin-block: 30px;
     margin-bottom: 70px;
@@ -111,9 +139,13 @@ header{
     font-size: 24px;
     padding-block: 2px 29px;
 }
+.meetings{
+    margin-top: 230px;
+}
 
 .meetings h2{
-    padding-top: 390px;
+    
+    padding-top: 490px;
     font-size: 50px;
     padding-bottom: 50px;
 }
@@ -122,9 +154,75 @@ header{
     padding-block: 20px;
     color: rgba(0, 0, 0, 0.726);
 }
+.dots{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-block: 99px;
+    margin-inline: 300px;
+    width: 750px;
+    height: 350px;
+    background-color: white;
+    padding-left: 50px;
 
+}
+.dots p{
+    padding-bottom: 60px;
+    padding-inline: 80px;
+    font-size:25px;
+    text-align: center;
+}
+.dots input{
+    width: 400px;
+    height: 50px;
+    border: 1px solid white;
+    border-bottom: 1px solid #BB85FC;
+}
+.dots button{
+    font-size: 18px;
+    border: 1px solid #BB85FC;
+    color: white;
+    background-color: #BB85FC;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    
+}
+.dots button:hover{
+    cursor: pointer;
+    background-color: #5f4281;
+    border: 1px solid #5f4281;
+}
 
+.dots  ::placeholder{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.247);
+}
+.dot{
+    display: flex;
 
+}
+.imgs{
+    filter: opacity(0.3);
+}
+
+.dots{
+    
+    position: absolute;
+    margin-bottom: 1150px;
+
+}      
+.vid{
+    padding-block: 60px;
+}
+.vid p{
+    font-size: 20px;
+    padding-right:50px: ;
+}
+.vid img{
+    padding-top: 40px;
+}
 
 
 
@@ -144,30 +242,81 @@ header{
     display: flex;
     flex-direction: column;
 }
+.descr{
+    display: flex;
+    flex-direction: row;
+    margin-left: left;
+    margin-top:80px;
+
+}
+.black h3{
+    color:#BB85FC;
+    font-size: 20px; 
+}
+.black p{
+    margin-top: 9px;
+    font-size: 21px;
+    margin-left: 10px;
+}
+.black h2{
+    margin-top: 15px;
+    margin-left: 30px;
+    
+}
+
+.descr p{
+    font-size:20px;
+    padding-right: 250px;
+}
 .line{
-    width: 120px;
-    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 190px;
+    margin-left: 90px;
+    background-color: #BB85FC;
+    width:5px;
+    height: 200px;
     color: #BB85FC;
 }
 .black{
+    padding-top: 550px;
     background-color: black;
     color: white;
     display: flex;
     flex-direction: row;
-    text-align: center;
+    padding-left: 30px;
     padding-block: 20px;
 }
 
 
+.launch{
+    margin-left:2px;
+    
+}
 
+.launch p{
+    padding-top: 2px;
+    margin-left: 7px;
+}
+.launch h2{
+    padding-top: 21px;
+    margin-left: 7px;
+}
+.launch img{
+    margin-left: 150px;
+    margin-left: 7px;
+}
 
+.img p{
+    font-size: 10px;
+    padding-bottom: 50px;
+}
+.img{
+    margin-left: 150px;
+}
 
-
-
-
-
-
-
+.img .to{
+    font-size: 14px;
+}
 
 
 
